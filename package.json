@@ -1,7 +1,7 @@
 {
   "version": "0.10.0",
   "license": "MIT",
-  "name": "url-search-params",
+  "name": "@github/url-search-params",
   "description": "Simple polyfill for URLSearchParams standard",
   "homepage": "https://github.com/WebReflection/url-search-params",
   "keywords": [
@@ -16,7 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/WebReflection/url-search-params.git"
+    "url": "git://github.com/github/url-search-params.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com"
   },
   "main": "./build/url-search-params.node.js",
   "scripts": {
